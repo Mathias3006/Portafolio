@@ -1,0 +1,119 @@
+BETA 
+
+ 
+
+CSS 
+
+/* Resetear los márgenes y relleno predeterminados */ body, h1, h2, p, ul, li { margin: 0; padding: 0; } /* Estilo general */ body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; } /* Estilo del encabezado */ header { background-color: #f0f0f0; padding: 20px; } header h1 { font-size: 30px; margin-bottom: 10px; } nav ul { list-style: none; } nav ul li { display: inline-block; margin-right: 20px; } nav ul li a { text-decoration: none; color: #333; } /* Estilo de la sección de contacto */ #contact { background-color: #f9f9f9; padding: 20px; } #contact h2 { font-size: 24px; margin-bottom: 10px; } /* Estilo de la sección de probabilidad de compra */ #probability { background-color: #f0f0f0; padding: 20px; } #probability h2 { font-size: 24px; margin-bottom: 10px; } /* Estilo de la sección del carrito de compras */ #cart { background-color: #fff; padding: 20px; } #cart h2 { font-size: 24px; margin-bottom: 10px; } /* Estilo del pie de página */ footer { text-align: center; padding: 10px; background-color: #f0f0f0; } /* Estilo de los enlaces */ a { color: #007bff; } a:hover { text-decoration: underline; } 
+
+ 
+
+Html 
+
+ 
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Online Store</title> 
+
+    <style> 
+
+        body { 
+
+            font-family: Arial, sans-serif; 
+
+        } 
+
+    </style> 
+
+</head> 
+
+<body> 
+
+    <!-- Header Section --> 
+
+    <header> 
+
+        <h1>Welcome to our Online Store</h1> 
+
+        <nav> 
+
+            <ul> 
+
+                <li><a href="#">Home</a></li> 
+
+                <li><a href="#">Products</a></li> 
+
+                <li><a href="#">Contact</a></li> 
+
+                <li><a href="#">Cart</a></li> 
+
+            </ul> 
+
+        </nav> 
+
+    </header> 
+
+  
+
+    <!-- Contact Section --> 
+
+    <section id="contact"> 
+
+        <h2>Contact Us</h2> 
+
+        <p>If you have any questions or concerns, feel free to reach out to us.</p> 
+
+        <p>Email: info@examplestore.com</p> 
+
+        <p>Phone: +1 123-456-7890</p> 
+
+    </section> 
+
+  
+
+    <!-- Probability of Purchase Section --> 
+
+    <section id="probability"> 
+
+        <h2>Probability of Purchase</h2> 
+
+        <p>Our customers have a high probability of finding what they need in our store.</p> 
+
+    </section> 
+
+  
+
+    <!-- Shopping Cart Section --> 
+
+    <section id="cart"> 
+
+        <h2>Your Shopping Cart</h2> 
+
+        <!-- Insert your shopping cart functionality here (e.g., items, prices, etc.) --> 
+
+    </section> 
+
+  
+
+    <!-- Footer Section --> 
+
+    <footer> 
+
+        <p>&copy; 2023 Your Online Store. All rights reserved.</p> 
+
+    </footer> 
+
+</body> 
+
+</html> 
+
+e5 
